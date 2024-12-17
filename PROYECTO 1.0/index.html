@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobrevivir como foráneo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="carousel">
+        <div class="carousel-item">
+            <img src="Img/222.jpg" alt="Imagen 1">
+        </div>
+        <div class="carousel-item">
+            <img src="Img/111.jpg" alt="Imagen 2">
+        </div>
+        <div class="carousel-item">
+            <img src="Img/333.jpg" alt="Imagen 3">
+        </div>
+    </section>
+
+    
+    <section class="about">
+        <h1>Sobrevivir como Foráneo</h1>
+        <p>Pagina colaborativa diseñada específicamente para estudiantes foráneos de la UAM - Lerma, ofreciéndoles acceso a información útil y actualizada sobre aspectos clave como servicios, transporte, seguridad, alojamiento, alimentación, actividades académicas y culturales, entre otros.</p>
+    </section>
+
+    
+    <section class="main-container">
+        
+        <div class="form-container">
+            <h2>Agregar Información</h2>
+            <form id="addPinForm">
+                <label for="category">Categoría:</label>
+                <select id="category" required>
+                    <option value="servicios">Servicios Básicos</option>
+                    <option value="transporte">Transporte y Movilidad</option>
+                    <option value="vivienda">Vivienda y Alojamiento</option>
+                    <option value="comida">Comida y Restaurantes</option>
+                    <option value="rutas">Rutas Seguras</option>
+                    <option value="consejos">Consejos de Seguridad</option>
+                    <option value="costos">Costos y Presupuesto</option>
+                    <option value="recomendaciones">Recomendaciones Personales</option>
+                </select>
+
+                <label for="comment">Comentario:</label>
+                <textarea id="comment" required></textarea>
+
+                <label for="image">Subir Imagen:</label>
+                <input type="file" id="image" accept="image/*">
+
+                <button type="submit" class="submit-btn">Agregar Pin</button>
+            </form>
+        </div>
+
+        
+        <div id="map" class="map-container"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

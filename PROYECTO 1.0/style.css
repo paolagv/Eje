@@ -1,0 +1,144 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;  
+  color: #fff; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.carousel-item {
+  min-width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+
+.about {
+  text-align: center;
+  background-color: rgba(102, 51, 153, 0.8); 
+  padding: 30px;
+  margin-bottom: 30px;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.about h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #fff;  
+}
+
+.about p {
+  font-size: 1.2rem;
+  color: #fff; 
+}
+
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+
+.form-container {
+  background-color: rgba(102, 51, 153, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  width: 45%; 
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 10px;
+  color: #fff; 
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #2e2e2e;  
+  color: #fff; 
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: #7c4dff; 
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #5e35b1; 
+}
+
+
+.map-container {
+  width: 45%;  
+  height: 400px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.carousel-item {
+  min-width: 100%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+  border-radius: 10px;
+}

@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.589, 19.365]
+      },
+      "properties": {
+        "category": "Servicios Básicos",
+        "comment": "Este es un buen lugar para conseguir servicios básicos.",
+        "image": "image1.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.590, 19.366]
+      },
+      "properties": {
+        "category": "Comida y Restaurantes",
+        "comment": "Restaurante recomendado.",
+        "image": "image2.jpg"
+      }
+    }
+  ]
+}
